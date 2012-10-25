@@ -1,0 +1,64 @@
+2012-10-17 09:59:12 +0000 Default: 开始随机屏幕事件测试
+2012-10-17 09:59:12 +0000 Default: DoubleTap  x:310  y:249
+2012-10-17 09:59:12 +0000 Debug: target.doubleTap({x:"310", y:"249"})
+2012-10-17 09:59:12 +0000 Debug: target.twoFingerTap({x:"100", y:"200"})
+2012-10-17 09:59:12 +0000 Default: FingerMove  x:9  y:355 -> x:119  y:257
+2012-10-17 09:59:12 +0000 Debug: target.dragFromToForDuration({x:"9", y:"355"}, {x:"119", y:"257"}, "2.252858678577468")
+2012-10-17 09:59:15 +0000 Default: DoubleTap  x:266  y:176
+2012-10-17 09:59:15 +0000 Debug: target.doubleTap({x:"266", y:"176"})
+2012-10-17 09:59:15 +0000 Default: FingerMove  x:301  y:289 -> x:56  y:130
+2012-10-17 09:59:15 +0000 Debug: target.dragFromToForDuration({x:"301", y:"289"}, {x:"56", y:"130"}, "1.396389588247985")
+2012-10-17 09:59:17 +0000 Debug: target.twoFingerTap({x:"100", y:"200"})
+2012-10-17 09:59:17 +0000 Default: ZoomIn  x:126  y:301 -> x:192  y:153
+2012-10-17 09:59:17 +0000 Debug: target.pinchCloseFromToForDuration({x:"126", y:"301"}, {x:"192", y:"153"}, "2.234119849978015")
+2012-10-17 09:59:19 +0000 Default: ZoomIn  x:40  y:224 -> x:225  y:400
+2012-10-17 09:59:19 +0000 Debug: target.pinchCloseFromToForDuration({x:"40", y:"224"}, {x:"225", y:"400"}, "2.026304848492146")
+2012-10-17 09:59:21 +0000 Default: FingerMove  x:30  y:449 -> x:116  y:331
+2012-10-17 09:59:21 +0000 Debug: target.dragFromToForDuration({x:"30", y:"449"}, {x:"116", y:"331"}, "3.247149522416294")
+2012-10-17 09:59:25 +0000 Default: ZoomIn  x:310  y:346 -> x:177  y:311
+2012-10-17 09:59:25 +0000 Debug: target.pinchCloseFromToForDuration({x:"310", y:"346"}, {x:"177", y:"311"}, "2.036440117983148")
+2012-10-17 09:59:27 +0000 Default: DoubleTap  x:56  y:342
+2012-10-17 09:59:27 +0000 Debug: target.doubleTap({x:"56", y:"342"})
+2012-10-17 09:59:27 +0000 Default: ZoomOut  x:69  y:321 -> x:19  y:274
+2012-10-17 09:59:27 +0000 Debug: target.pinchOpenFromToForDuration({x:"69", y:"321"}, {x:"19", y:"274"}, "0.6299665942788124")
+2012-10-17 09:59:28 +0000 Default: ZoomOut  x:150  y:283 -> x:69  y:439
+2012-10-17 09:59:28 +0000 Debug: target.pinchOpenFromToForDuration({x:"150", y:"283"}, {x:"69", y:"439"}, "1.904631323879585")
+2012-10-17 09:59:30 +0000 Default: DoubleTap  x:124  y:107
+2012-10-17 09:59:30 +0000 Debug: target.doubleTap({x:"124", y:"107"})
+2012-10-17 09:59:30 +0000 Default: ZoomOut  x:130  y:339 -> x:31  y:112
+2012-10-17 09:59:30 +0000 Debug: target.pinchOpenFromToForDuration({x:"130", y:"339"}, {x:"31", y:"112"}, "2.324504405492917")
+2012-10-17 09:59:33 +0000 Debug: target.twoFingerTap({x:"100", y:"200"})
+2012-10-17 09:59:33 +0000 Default: ZoomIn  x:100  y:64 -> x:102  y:1
+2012-10-17 09:59:33 +0000 Debug: target.pinchCloseFromToForDuration({x:"100", y:"64"}, {x:"102", y:"1"}, "0.6913240149151534")
+2012-10-17 09:59:34 +0000 Default: ZoomIn  x:20  y:420 -> x:43  y:160
+2012-10-17 09:59:34 +0000 Debug: target.pinchCloseFromToForDuration({x:"20", y:"420"}, {x:"43", y:"160"}, "1.11083023250103")
+2012-10-17 09:59:35 +0000 Default: FingerMove  x:143  y:252 -> x:73  y:337
+2012-10-17 09:59:35 +0000 Debug: target.dragFromToForDuration({x:"143", y:"252"}, {x:"73", y:"337"}, "2.407259452389553")
+2012-10-17 09:59:37 +0000 Default: FingerMove  x:119  y:378 -> x:23  y:181
+2012-10-17 09:59:37 +0000 Debug: target.dragFromToForDuration({x:"119", y:"378"}, {x:"23", y:"181"}, "0.7544702650047839")
+2012-10-17 09:59:38 +0000 Default: ZoomIn  x:101  y:24 -> x:206  y:304
+2012-10-17 09:59:38 +0000 Debug: target.pinchCloseFromToForDuration({x:"101", y:"24"}, {x:"206", y:"304"}, "3.270344255259261")
+2012-10-17 09:59:42 +0000 Default: FingerMove  x:44  y:88 -> x:150  y:207
+2012-10-17 09:59:42 +0000 Debug: target.dragFromToForDuration({x:"44", y:"88"}, {x:"150", y:"207"}, "0.9348437481094152")
+2012-10-17 09:59:43 +0000 Default: FingerMove  x:266  y:135 -> x:281  y:201
+2012-10-17 09:59:43 +0000 Debug: target.dragFromToForDuration({x:"266", y:"135"}, {x:"281", y:"201"}, "1.474032494239509")
+2012-10-17 09:59:44 +0000 Default: FingerMove  x:263  y:374 -> x:63  y:31
+2012-10-17 09:59:44 +0000 Debug: target.dragFromToForDuration({x:"263", y:"374"}, {x:"63", y:"31"}, "3.070023127133027")
+2012-10-17 09:59:48 +0000 Default: DoubleTap  x:255  y:235
+2012-10-17 09:59:48 +0000 Debug: target.doubleTap({x:"255", y:"235"})
+2012-10-17 09:59:48 +0000 Default: DoubleTap  x:37  y:40
+2012-10-17 09:59:48 +0000 Debug: target.doubleTap({x:"37", y:"40"})
+2012-10-17 09:59:48 +0000 Default: FingerMove  x:60  y:218 -> x:196  y:46
+2012-10-17 09:59:48 +0000 Debug: target.dragFromToForDuration({x:"60", y:"218"}, {x:"196", y:"46"}, "2.70785387000069")
+2012-10-17 09:59:51 +0000 Default: ZoomOut  x:204  y:305 -> x:234  y:243
+2012-10-17 09:59:51 +0000 Debug: target.pinchOpenFromToForDuration({x:"204", y:"305"}, {x:"234", y:"243"}, "1.083241109503433")
+2012-10-17 09:59:52 +0000 Debug: target.twoFingerTap({x:"100", y:"200"})
+2012-10-17 09:59:52 +0000 Default: FingerMove  x:250  y:236 -> x:58  y:439
+2012-10-17 09:59:52 +0000 Debug: target.dragFromToForDuration({x:"250", y:"236"}, {x:"58", y:"439"}, "0.804187414702028")
+2012-10-17 09:59:53 +0000 Default: FingerMove  x:235  y:200 -> x:59  y:171
+2012-10-17 09:59:53 +0000 Debug: target.dragFromToForDuration({x:"235", y:"200"}, {x:"59", y:"171"}, "2.98524378775619")
+2012-10-17 09:59:56 +0000 Debug: target.twoFingerTap({x:"100", y:"200"})
+2012-10-17 09:59:57 +0000 Default: ZoomOut  x:201  y:85 -> x:74  y:449
+2012-10-17 09:59:57 +0000 Debug: target.pinchOpenFromToForDuration({x:"201", y:"85"}, {x:"74", y:"449"}, "2.147303262492642")
+2012-10-17 09:59:59 +0000 Fail: The target application appears to have died
+Instruments Trace Complete (Duration : 59.237991s; Output : /Users/zippo/develop/hios/instrumentscli0.trace)

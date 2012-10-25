@@ -1,0 +1,11 @@
+2012-10-17 09:16:22 +0000 Default: 检测是否为登录面板...
+2012-10-17 09:16:22 +0000 Default: 当前面板: 非登录面板
+2012-10-17 09:16:22 +0000 Default: 已登录，开始注销。
+2012-10-17 09:16:22 +0000 Debug: target.frontMostApp().tabBar().buttons()[3].tap()
+2012-10-17 09:16:22 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].dragInsideWithOptions({startOffset:{x:"0.62", y:"0.86"}, endOffset:{x:"0.5", y:"0.07000000000000001"}})
+2012-10-17 09:16:24 +0000 Debug: target.frontMostApp().mainWindow().tableViews()[0].buttons()[0].tap()
+2012-10-17 09:16:24 +0000 Debug: target.frontMostApp().actionSheet().buttons()[0].tap()
+2012-10-17 09:16:28 +0000 Default: 检测是否为登录面板...
+2012-10-17 09:16:28 +0000 Default: 当前面板: 登录面板
+2012-10-17 09:16:28 +0000 Pass: 测试结果: Pass
+Instruments Trace Complete (Duration : 9.193496s; Output : /Users/zippo/develop/hios/instrumentscli1.trace)

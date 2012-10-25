@@ -1,0 +1,11 @@
+<testsuites name="hi_ios_quick" test="1" pass="0" failures="1" errors="0" time="61">
+<schemaversion>junit 1.0.0</schemaversion>
+<testsuite errors="0" failures="1" name="monkey" tests="1" time="61">
+<testcase classname="monkey" name="stability.js" time="61">
+<failure message="check error" type="">
+2012-10-17 09:59:59 +0000 Fail: The target application appears to have died
+</failure>
+</testcase>
+</testsuite>
+</testsuites>
+

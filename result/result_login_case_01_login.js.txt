@@ -1,0 +1,11 @@
+2012-10-17 09:16:14 +0000 Default: 检测是否为登录面板...
+2012-10-17 09:16:14 +0000 Default: 当前面板: 登录面板
+2012-10-17 09:16:14 +0000 Default: 开始输入帐号。
+2012-10-17 09:16:14 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].textFields()[1].tap()
+2012-10-17 09:16:14 +0000 Debug: target.frontMostApp().keyboard().typeString("ziputao1167")
+2012-10-17 09:16:16 +0000 Default: 开始输入密码。
+2012-10-17 09:16:16 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].secureTextFields()[0].tap()
+2012-10-17 09:16:16 +0000 Debug: target.frontMostApp().keyboard().typeString("ais1165")
+2012-10-17 09:16:17 +0000 Debug: target.frontMostApp().mainWindow().scrollViews()[0].buttons()["登录"].tap()
+2012-10-17 09:16:18 +0000 Pass: 测试结果: Pass
+Instruments Trace Complete (Duration : 8.392707s; Output : /Users/zippo/develop/hios/instrumentscli0.trace)
