@@ -29,6 +29,6 @@ case $1 in
         exit
         ;;
     monkey)
-        sh bkground.sh &
+        sh bkground.sh $2 &
         sh start_suit.sh $device $1
 esac 

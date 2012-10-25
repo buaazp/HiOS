@@ -5,12 +5,18 @@
 # 2012.10.17
 #!/bin/bash
 source ./conf/conf.sh
-sTime=$[$maxRunTime*3600]
+if [ $1 ]; then
+    sTime=$[$1*36]
+else
+    sTime=$[$maxRunTime*3600]
+fi
 echo $sTime
 sleep $sTime
-#关闭模拟器结束本次测试
-appid=`ps aux|grep "MacOS/iPhone Simulator"|grep -v grep|awk -F ' ' '{print $2}'`
-if [ $appid ]; then
-    echo $appid
-    kill -9 $appid
+#关闭instruments结束monkey测试
+instrumentsid=`ps aux|grep -i /instruments|grep -v grep|awk -F ' ' '{print $2}'`
+if [ -z $instrumentsid ]; then
+    echo "instruments.app is not running!"
+else
+    echo "killing... instruments pid is "$instrumentsid
+    kill -9 $instrumentsid
 fi

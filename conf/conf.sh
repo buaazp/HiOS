@@ -11,10 +11,8 @@ ipaName="${appName}.ipa"
 #iOS设备UUID
 iphoneUuid="7248033d2c26cdbb2f0006a620e67b5191757194"
 ipadUuid="8c368d836f25c180515a3613553c1b35a308df40"
-#同步推程序的UUID
-tbtuiUuid="7989F8D9-F1D6-43CC-B600-556AA2425669"
 #hudson编译任务路径
-compileDir="/Users/zippo/develop/ci/workspace/BaiduYun-compile/netdisk_iphone/"
+compileDir="/Users/zippo/develop/ci/workspace/BaiduYun-compile/netdisk/netdisk_iphone/"
 #hudson编译版本路径
 buildSimuDir=${compileDir}"build/Debug-iphonesimulator/${appName}.app"
 buildDir=${compileDir}

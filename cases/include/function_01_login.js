@@ -179,7 +179,7 @@ function loginJustLogin(username, password)
         target.frontMostApp().keyboard().typeString(password);
         //点击登录按钮
         target.frontMostApp().mainWindow().scrollViews()[0].buttons()["登录"].tap();
-
+        target.frontMostApp().windows()[2].buttons()["暂不开启"].tap();
 	if(checkIfLoginedLabel()!=1)
 	{
 		result = 0; 

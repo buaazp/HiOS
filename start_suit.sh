@@ -83,6 +83,16 @@ do
         #case执行时间
         timeBegin=`date +%s`
 
+        #如果instruments在运行则关闭
+        instrumentsid=`ps aux|grep -i /instruments|grep -v grep|awk -F ' ' '{print $2}'`
+        echo "instrumentsid:"$instrumentsid
+        if [ -z $instrumentsid ]; then
+            echo "instruments.app is not running!"
+        else
+            echo "killing... instruments pid is "$instrumentsid
+            kill -9 $instrumentsid
+        fi
+
         #构造参数执行instruments命令
         if [ $deviceType = "0" ]; then
             templateName=tp.simulator.tracetemplate
@@ -92,13 +102,14 @@ do
             $xcodePath/instruments -t "${templatePath}/${templateName}" "${target}" -e UIASCRIPT "${scriptPath}/${scriptName}" -v | tee ./result/result_${module}_${scriptName}.txt
             echo "done!"
         else
-            appName=$ipaName
+            # appName=$ipaName
             templateName=tp.iphoneos.tracetemplate
             target=$iphoneUuid
+            
             echo "begin!"
             echo $xcodePath/instruments -t "${templatePath}/${templateName}" -w "${target}" "${appName}" -e UIASCRIPT "${scriptPath}/${scriptName}" -v
-            echo "done!"
             $xcodePath/instruments -t "${templatePath}/${templateName}" -w "${target}" "${appName}" -e UIASCRIPT "${scriptPath}/${scriptName}" -v | tee ./result/result_${module}_${scriptName}.txt
+            echo "done!"
         fi
 
         #计算和输出结果报表
