@@ -5,8 +5,8 @@ var caseGoal = "测试一次完整的登录流程";
 
 
 var target = UIATarget.localTarget();
-var uname = "ziputao1167";
-var pwd = "ais1165";
+var uname = "xxxxx";
+var pwd = "xxxx";
 var result = loginByNameAndPassword(uname, pwd);
 
 if (result == 1) {

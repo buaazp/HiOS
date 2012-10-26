@@ -5,8 +5,8 @@ var caseGoal = "测试登出帐号";
 
 var target = UIATarget.localTarget();
 var result = 0;
-var uname = "ziputao1167";
-var pwd = "ais1165";
+var uname = "xxxxx";
+var pwd = "xxxx";
 if(loginNeedNotLogout(uname, pwd)!=1)
 {
 	result = 0;
